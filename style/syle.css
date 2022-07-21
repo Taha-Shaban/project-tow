@@ -1,0 +1,256 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../image/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-left:86px;
+}
+.linck{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 40px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+ul li{
+    list-style: none;
+    margin-right: 48px;
+    margin-top: 27px;
+    font-size: 19px;
+    /* font-weight: bold; */
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(124 125 125);   
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+    font-family: Arial;
+}
+ul li:hover a{
+    color: #fff;
+}
+.search{
+    width: 360px;
+    float: left;
+    margin-left: 200px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    background:transparent;
+    height: 40px;
+    border: 1px solid #af4d2b85;
+    margin-top:13px ;
+    margin-left: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    border-right: none;
+    font-size:20px ;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+.buttun{
+    width: 100px;
+    height:40px;
+    margin-top: 13px;
+    background-color: orange;
+    border: 1px solid #af4d2b85;
+    color:#fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: .7px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.buttun:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height:auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .desc{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+   
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left:20px;
+    margin-top: 9%;
+    letter-spacing:2px;
+    text-transform: capitalize;
+}
+.content .con{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.content .con a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Times';
+    transition: .3s ease;
+}
+.con:hover{
+    background-color: #fff;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.link{
+    margin: 19px 0;
+    letter-spacing: .10pc;
+    
+}
+.form{
+    width:300px;
+    height: 476px;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: -20px;
+    left: 878px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.form h2{
+    width: 245px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: 2px;
+    background: #fff;
+    font-size:22px;
+    color: orange;
+    border-radius: 10px;
+    padding:8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid orange;
+    border-right:none ;
+    border-top:none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: arial;
+}
+.but{
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    font-size:20px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 30px;
+    transition:0.5s ease;
+}
+.but a{
+    transition: .4s ease;
+}
+.but:hover{
+    background-color: #fff;
+}
+.but:hover a{
+    color: #000;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: -1;
+}
+.link a{
+    color: blue;
+}
+.liw{
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-top: 19px;
+}
+
+.icon{
+    text-align: center;
+    margin-left: 24px;
+}
+.icon i{
+    margin-left: 10px;
+    font-size: 27px;
+}
+.icon i:hover{
+    color: orange;
+}
